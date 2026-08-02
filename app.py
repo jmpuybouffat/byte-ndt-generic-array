@@ -101,12 +101,10 @@ A 1-D array mainly controls one angle. A matrix array distributes elements in X 
 Un réseau 1D pilote principalement un angle. Une matrice 2D répartit les éléments en X et Y et peut piloter **theta** et **phi**.
 
 ### Pitch, gap and frequency / Pitch, gap et fréquence
-\[
-pitch = element\ size + gap
-\]
-\[
-\lambda = \frac{c}{f}
-\]
+''')
+    st.latex(r"\mathrm{Pitch} = \mathrm{Element\ size} + \mathrm{Gap}")
+    st.latex(r"\lambda = \frac{c}{f}")
+    st.markdown(r'''
 Increasing frequency reduces wavelength. The same physical pitch therefore becomes larger in wavelengths.
 
 ### Steering and focusing / Pilotage et focalisation
