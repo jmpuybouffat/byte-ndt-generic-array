@@ -22,7 +22,7 @@ fr = language == 'Français'
 
 def tr(en, fr_text):
     return fr_text if fr else en
-
+st.image("logo.jpeg", width=160)
 st.title(tr('Byte NDT – Generic Ultrasonic Array Designer','Byte NDT – Conception générique de réseaux ultrasonores'))
 st.caption(tr('Learn, design, calculate, analyse and export — independently of the hardware manufacturer.', 'Apprendre, concevoir, calculer, analyser et exporter — indépendamment du constructeur.'))
 st.info(tr('Generic V1: neutral CSV and JSON outputs. Lecoeur, Mantis and other hardware adapters will be separate plug-ins.', 'V1 générique : sorties neutres CSV et JSON. Lecoeur, Mantis et les autres matériels seront des plug-ins séparés.'))
