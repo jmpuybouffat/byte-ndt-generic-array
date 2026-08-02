@@ -107,6 +107,8 @@ Un réseau 1D pilote principalement un angle. Une matrice 2D répartit les élé
     st.markdown(r'''
 Increasing frequency reduces wavelength. The same physical pitch therefore becomes larger in wavelengths.
 
+L’augmentation de la fréquence réduit la longueur d’onde. Le même pas physique devient donc plus grand lorsqu’il est exprimé en longueurs d’onde.
+
 ### Steering and focusing / Pilotage et focalisation
 - **theta**: transmitted polar angle in the solid;
 - **phi**: azimuth;
