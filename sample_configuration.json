@@ -1,0 +1,30 @@
+{
+  "schema": "byte-ndt.generic-array.v1",
+  "description": "Default 11x11 planar-interface teaching case",
+  "array": {
+    "elements_x": 11,
+    "elements_y": 11,
+    "element_x_mm": 0.15,
+    "element_y_mm": 0.15,
+    "gap_x_mm": 0.05,
+    "gap_y_mm": 0.05,
+    "apodization_x": "rect",
+    "apodization_y": "rect"
+  },
+  "material": {
+    "frequency_mhz": 5.0,
+    "density_1_g_cm3": 1.0,
+    "cp1_m_s": 1480.0,
+    "density_2_g_cm3": 7.9,
+    "cp2_m_s": 5900.0,
+    "cs2_m_s": 3200.0,
+    "wave_type": "p"
+  },
+  "steering": {
+    "array_angle_deg": 10.217,
+    "water_path_mm": 50.8,
+    "theta_deg": 20.0,
+    "phi_deg": 0.0,
+    "focal_distance_mm": null
+  }
+}
